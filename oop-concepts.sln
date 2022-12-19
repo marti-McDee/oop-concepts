@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Access Modifiers", "oop-concepts.vcxproj", "{27D04C4C-4254-4BB5-8CCD-05B61394EB13}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Access Modifiers", "Access Modifiers\oop-concepts.vcxproj", "{27D04C4C-4254-4BB5-8CCD-05B61394EB13}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Access Modifiers", "Access Modifiers", "{C02E67BE-73F0-42CC-80BC-22D31745BEB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors", "Constructors\Constructors.vcxproj", "{2DA5C582-ADA5-426D-BB7D-7750F3709A32}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructors", "Constructors", "{F905C47D-E9B6-4F06-BD0D-506A4EE6C4A1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constructors", "..\Constructors\Constructors.vcxproj", "{2DA5C582-ADA5-426D-BB7D-7750F3709A32}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Encapsulation", "Encapsulation\Encapsulation.vcxproj", "{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +33,17 @@ Global
 		{2DA5C582-ADA5-426D-BB7D-7750F3709A32}.Release|x64.Build.0 = Release|x64
 		{2DA5C582-ADA5-426D-BB7D-7750F3709A32}.Release|x86.ActiveCfg = Release|Win32
 		{2DA5C582-ADA5-426D-BB7D-7750F3709A32}.Release|x86.Build.0 = Release|Win32
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Debug|x64.ActiveCfg = Debug|x64
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Debug|x64.Build.0 = Debug|x64
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Debug|x86.ActiveCfg = Debug|Win32
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Debug|x86.Build.0 = Debug|Win32
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Release|x64.ActiveCfg = Release|x64
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Release|x64.Build.0 = Release|x64
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Release|x86.ActiveCfg = Release|Win32
+		{94DBB6B7-DEB3-40EE-BB23-DECA570C0633}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{27D04C4C-4254-4BB5-8CCD-05B61394EB13} = {C02E67BE-73F0-42CC-80BC-22D31745BEB0}
-		{2DA5C582-ADA5-426D-BB7D-7750F3709A32} = {F905C47D-E9B6-4F06-BD0D-506A4EE6C4A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3C30B16-7C24-4703-ACF1-CD3BAA522D65}
