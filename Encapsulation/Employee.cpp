@@ -17,6 +17,7 @@ std::string Employee::getCompany() {
 }
 
 void Employee::setAge(int age) {
+	// validation rule applied to this setter method
 	if(age >= 18) { this->age = age; }
 }
 
